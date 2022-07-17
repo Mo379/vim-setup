@@ -11,6 +11,9 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'dense-analysis/ale'
 Plugin 'nvie/vim-flake8'
+call vundle#begin()
+  Plugin 'preservim/nerdtree'
+call vundle#end()
 
 
 " All of your Plugins must be added before the following line
@@ -45,3 +48,10 @@ let g:ale_linters={'python': ['flake8']}
 
 set number
 set colorcolumn=80
+
+
+
+nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeFind<CR>
