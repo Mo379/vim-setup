@@ -14,6 +14,7 @@ Plugin 'nvie/vim-flake8'
 Plugin 'preservim/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'https://github.com/airblade/vim-gitgutter.git'
+Plugin 'Yggdroot/indentLine'
 
 
 " All of your Plugins must be added before the following line
@@ -45,6 +46,7 @@ au BufNewFile, BufRead *.py
 	\ set expandtab
 	\ set fileformat=unix
 let g:ale_linters={'python': ['flake8']}
+let g:indentLine_char = '┊'
 
 set number
 set colorcolumn=80
