@@ -12,8 +12,10 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'dense-analysis/ale'
 Plugin 'nvie/vim-flake8'
 call vundle#begin()
-  Plugin 'preservim/nerdtree'
+	Plugin 'preservim/nerdtree'
+	Plugin 'Xuyuanp/nerdtree-git-plugin'
 call vundle#end()
+Plugin 'https://github.com/airblade/vim-gitgutter.git'
 
 
 " All of your Plugins must be added before the following line
