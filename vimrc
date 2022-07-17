@@ -15,6 +15,7 @@ Plugin 'preservim/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'https://github.com/airblade/vim-gitgutter.git'
 Plugin 'Yggdroot/indentLine'
+Plugin 'preservim/nerdcommenter'
 
 
 " All of your Plugins must be added before the following line
@@ -57,3 +58,6 @@ nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
+
+vmap ? <plug>NERDCommenterToggle
+nmap ? <plug>NERDCommenterToggle

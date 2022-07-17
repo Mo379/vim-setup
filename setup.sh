@@ -21,3 +21,4 @@ cp vim-atom-dark/colors/* .
 sudo rm -r vim-atom-dark
 #
 vim +PluginInstall +qa
+cd ~/
