@@ -51,6 +51,7 @@ let g:indentLine_char = '┊'
 
 set number
 set colorcolumn=80
+set scrolloff=6
 
 
 
