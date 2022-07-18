@@ -16,6 +16,7 @@ Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'https://github.com/airblade/vim-gitgutter.git'
 Plugin 'Yggdroot/indentLine'
 Plugin 'preservim/nerdcommenter'
+Plugin 'pseewald/vim-anyfold'
 
 
 " All of your Plugins must be added before the following line
@@ -62,3 +63,10 @@ nnoremap <C-f> :NERDTreeFind<CR>
 
 vmap ? <plug>NERDCommenterToggle
 nmap ? <plug>NERDCommenterToggle
+
+
+filetype plugin indent on " required
+syntax on                 " required
+
+autocmd Filetype * AnyFoldActivate
+set foldlevel=0 
