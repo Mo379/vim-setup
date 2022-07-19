@@ -69,6 +69,7 @@ nnoremap <C-f> :NERDTreeFind<CR>
 vmap ? <plug>NERDCommenterToggle
 nmap ? <plug>NERDCommenterToggle
 
+let g:airline_theme='minimalist'
 
 
 filetype plugin indent on " required
