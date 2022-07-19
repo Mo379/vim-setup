@@ -19,6 +19,7 @@ Plugin 'preservim/nerdcommenter'
 Plugin 'pseewald/vim-anyfold'
 Plugin 'tpope/vim-fugitive'
 Plugin 'vim-airline/vim-airline'
+Plugin 'Plugin 'vim-airline/vim-airline-themes'
 
 
 " All of your Plugins must be added before the following line
