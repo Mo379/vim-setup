@@ -17,6 +17,7 @@ Plugin 'https://github.com/airblade/vim-gitgutter.git'
 Plugin 'Yggdroot/indentLine'
 Plugin 'preservim/nerdcommenter'
 Plugin 'pseewald/vim-anyfold'
+Plugin 'tpope/vim-fugitive'
 
 
 " All of your Plugins must be added before the following line
