@@ -18,6 +18,7 @@ Plugin 'Yggdroot/indentLine'
 Plugin 'preservim/nerdcommenter'
 Plugin 'pseewald/vim-anyfold'
 Plugin 'tpope/vim-fugitive'
+Plugin 'vim-airline/vim-airline'
 
 
 " All of your Plugins must be added before the following line
