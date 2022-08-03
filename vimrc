@@ -78,3 +78,8 @@ syntax on                 " required
 
 autocmd Filetype * AnyFoldActivate
 set foldlevel=99
+
+
+
+nnoremap :ffun :g/def\ .*
+nnoremap :fcls :g/class\ .*
