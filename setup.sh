@@ -16,6 +16,7 @@ cd ../
 
 # move config to .config
 cp -r nvim_config ~/.config/nvim
+cp .wezterm.lua ~/.wezterm.lua
 
 
 # package manager
@@ -35,3 +36,4 @@ rm -r temp
 #cp .p10k.zsh ~/.p10k.zsh
 #cp .zshrc ~/.zshrc
 #exec zsh
+cd ~/vim-setup
