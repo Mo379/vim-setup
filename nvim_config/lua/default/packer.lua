@@ -58,8 +58,5 @@ return require('packer').startup(function(use)
     use "lukas-reineke/indent-blankline.nvim"
     use "vim-airline/vim-airline"
     use "vim-airline/vim-airline-themes"
-
-
-
-
+    use {'kevinhwang91/nvim-ufo', requires = 'kevinhwang91/promise-async'}
 end)
