@@ -15,3 +15,4 @@ config.window_background_opacity = 0.9
 -- This is where you actually apply your config choices
 -- and finally, return the configuration to wezterm
 return config
+
