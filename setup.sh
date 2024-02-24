@@ -1,6 +1,7 @@
 # clear
 mkdir ~/.config
 rm -r ~/.config/nvim
+rm -r ~/.config/wezterm
 sudo rm -r  ~/.vimrc ~/.vim
 brew uninstall vim
 mkdir ./temp
@@ -9,6 +10,7 @@ cd temp
 curl -LO https://github.com/neovim/neovim/releases/download/nightly/nvim-macos.tar.gz
 tar xzf nvim-macos.tar.gz
 mkdir ~/bin
+rm -r  ~/bin/nvim-macos
 mv ./nvim-macos ~/bin/nvim-macos
 echo "alias vim='~/bin/nvim-macos/bin/nvim'" >> ~/.zshrc
 source ~/.zshrc -l
