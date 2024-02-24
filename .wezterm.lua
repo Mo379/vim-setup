@@ -18,6 +18,7 @@ config.window_frame = {
   border_bottom_height = '0.15cell',
   border_bottom_color = 'silver',
 }
+config.harfbuzz_features = { 'calt=0', 'clig=0', 'liga=0' }
 -- This is where you actually apply your config choices
 -- and finally, return the configuration to wezterm
 return config
