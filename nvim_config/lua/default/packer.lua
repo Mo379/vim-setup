@@ -54,6 +54,12 @@ return require('packer').startup(function(use)
             'nvim-tree/nvim-web-devicons', -- optional
         },
     }
+    use {
+	    "folke/trouble.nvim",
+        requires = {
+            'nvim-tree/nvim-web-devicons', -- optional
+        },
+    }
     use "airblade/vim-gitgutter"
     use "lukas-reineke/indent-blankline.nvim"
     use "vim-airline/vim-airline"
