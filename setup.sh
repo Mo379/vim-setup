@@ -7,7 +7,7 @@ brew uninstall vim
 mkdir ./temp
 cd temp
 # vimrc
-curl -LO https://github.com/neovim/neovim/releases/download/nightly/nvim-macos.tar.gz
+curl -LO https://github.com/neovim/neovim/releases/download/v0.9.5/nvim-macos.tar.gz
 tar xzf nvim-macos.tar.gz
 mkdir ~/bin
 rm -r  ~/bin/nvim-macos
