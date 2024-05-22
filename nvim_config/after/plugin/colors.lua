@@ -7,4 +7,7 @@ function ColorMyPencils(color)
 	vim.api.nvim_set_hl(0, 'NormalFloat', {bg='none'})
 end
 
-ColorMyPencils('rose-pine-moon')
+ColorMyPencils('gruvbox')
+
+vim.cmd("highlight CursorLine guibg=#262626")
+vim.cmd("highlight CursorColumn guibg=#262626")
