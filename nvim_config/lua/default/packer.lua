@@ -60,6 +60,10 @@ return require('packer').startup(function(use)
             'nvim-tree/nvim-web-devicons', -- optional
         },
     }
+    use {
+      'kkoomen/vim-doge',
+      run = ':call doge#install()'
+    }
     use "airblade/vim-gitgutter"
     use "lukas-reineke/indent-blankline.nvim"
     use "vim-airline/vim-airline"
