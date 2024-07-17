@@ -43,4 +43,6 @@ vim.keymap.set("n", "gR", function() require("trouble").toggle("lsp_references")
 
 -- Comment generation
 vim.keymap.set('n', '<Leader>d', '<Plug>(doge-generate)')
-
+-- Interactive mode comment todo-jumping
+vim.keymap.set('n', '<Leader><TAB>', '<Plug>(doge-comment-jump-forward)')
+vim.keymap.set('n', '<Leader>p<TAB>', '<Plug>(doge-comment-jump-backward)')
