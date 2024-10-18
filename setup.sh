@@ -1,21 +1,20 @@
 # clear
 mkdir ~/.config
-rm -r ~/.config/nvim
-rm -r ~/.config/wezterm
+sudo rm -r ~/.config/nvim
+sudo rm -r ~/.config/wezterm
 sudo rm -r  ~/.vimrc ~/.vim
-brew uninstall vim
+apt uninstall vim
 mkdir ./temp
 cd temp
 # vimrc
-curl -LO https://github.com/neovim/neovim/releases/download/v0.9.5/nvim-macos.tar.gz
-tar xzf nvim-macos.tar.gz
+curl -LO https://github.com/neovim/neovim/releases/download/v0.9.5/nvim-linux64.tar.gz
+tar xzf nvim-linux64.tar.gz
 mkdir ~/bin
-rm -r  ~/bin/nvim-macos
-mv ./nvim-macos ~/bin/nvim-macos
-echo "alias vim='~/bin/nvim-macos/bin/nvim'" >> ~/.zshrc
-source ~/.zshrc -l
+sudo rm -r  ~/bin/nvim-linux64
+mv ./nvim-linux64 ~/bin/nvim-linux64
+echo "alias vim='~/bin/nvim-linux64/bin/nvim'" >> ~/.bashrc
+source ~/.bashrc -l
 cd ../
-
 # move config to .config
 cp -r nvim_config ~/.config/nvim
 cp .wezterm.lua ~/.wezterm.lua
@@ -23,12 +22,12 @@ cp .wezterm.lua ~/.wezterm.lua
 
 # package manager
 sudo rm -r ~/.local/share/nvim/site/pack/packer/start/packer.nvim
-git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+sudo git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
-brew install ripgrep
+sudo apt install ripgrep
 
 # clean up
-rm -r temp
+sudo rm -r temp
 # Vundle
 #
 
