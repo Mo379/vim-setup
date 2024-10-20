@@ -2,6 +2,7 @@
 mkdir ~/.config
 rm -r ~/.config/nvim
 rm -r ~/.config/wezterm
+rm -r ~/.config/aerospace
 sudo rm -r  ~/.vimrc ~/.vim
 brew uninstall vim
 mkdir ./temp
@@ -30,7 +31,10 @@ brew install ripgrep
 # clean up
 rm -r temp
 # Vundle
-#
+#aerospace window manager install and setup
+brew install --cask nikitabobko/tap/aerospace
+mkdir -p ~/.config/aerospace
+cp aerospace.toml ~/.config/aerospace/
 
 # Powerlevel10k zhs theme, unrelated to vim !!!
 #git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
